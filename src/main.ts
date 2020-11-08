@@ -32,7 +32,7 @@ function launch(e: MouseEvent) {
 	rocket.shrink = 0.999;
 	rocket.gravity = 0.01;
 	rockets.push(rocket);
-	audio.src = 'fly.wav';
+	audio.src = rocket.flySound;
 	audio.play();
 }
 
